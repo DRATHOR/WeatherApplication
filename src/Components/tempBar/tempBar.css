@@ -1,0 +1,26 @@
+.temp{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.temp_details{
+    padding:3px;
+    text-align: end;
+}
+.bar{
+    position:relative;
+    margin-left:10px;
+    left: 0px;
+    width:10px;
+    height:150px;
+    background:gray;
+    border-radius:5px;
+    }
+.bar_mov{
+    background:red;
+    width:10px;
+    height:30px;
+    position:absolute;
+    bottom:0;
+    border-radius:0px 0px 5px 5px;
+    }

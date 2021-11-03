@@ -1,0 +1,27 @@
+.weatherReport{
+    width:80px;
+    height:230px;
+    background:#d9e6f2;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+     padding: 0.5em;;
+     margin: 0.1em;;
+     /* border: 1px solid black; */
+     align-items: center;
+     border-radius: 5px;
+}
+.weatherDetails{
+   background: #b3cce6;
+   color:black;
+   width:auto;
+   height:250px;
+   display:flex;
+   overflow-x:scroll;
+   padding:20px 5px;
+   
+}
+.weatherDetails::-webkit-scrollbar{
+    display: none;
+    
+}
