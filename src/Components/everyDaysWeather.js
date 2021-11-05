@@ -7,18 +7,18 @@ function EveryDaysWeather({city}) {
 
     const MY_URL='http://api.openweathermap.org/data/2.5/forecast?id=524901';
     const MY_API_KEY='888944d555266bc0862abc2ca2187c4f';
-    const [cityTrueFalse,setCityTrueFalse]=useState(); 
+   // const [cityTrueFalse,setCityTrueFalse]=useState(); 
     const [days,setDays]=useState([]); 
   
         useEffect(()=>{
             fetch(`${MY_URL}&q=${city}&appid=${MY_API_KEY}&units=metric`)
            // fetch('http://api.openweathermap.org/data/2.5/forecast?id=524901&q=sagar&appid=888944d555266bc0862abc2ca2187c4f')
-        .then(response=>response.json()).
-        then(data=>{
+        .then(response=>response.json())
+        .then(data=>{
            // console.log(data.list)
             if(data.list){
                 setDays(data.list);
-                setCityTrueFalse(false)
+                //setCityTrueFalse(false)
             }
             
            
