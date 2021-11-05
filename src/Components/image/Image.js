@@ -36,7 +36,8 @@ function Image() {
                             if(data.cod==='404'||data.cod==='400'){
                                 //setVailidation(true)
                                 throw new Error("not found")
-                            }else{
+                            }
+                            else{
                                 // setVailidation(false)
                                 // setCoord(data.coord)
                                 // setData(data.name)
