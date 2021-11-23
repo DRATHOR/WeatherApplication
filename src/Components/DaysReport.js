@@ -11,7 +11,7 @@ function DaysReport(props) {
         "Wed",
         "Thu",
         "Fri", 
-        "Sat"
+        "Sat",
     ]
    
     return (
